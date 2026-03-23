@@ -1,40 +1,21 @@
-# Data files
-*.json
-!package.json
-*.csv
-
-# Output files
-*.xlsx
-*.html
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-dist/
-build/
-.eggs/
-venv/
-env/
-.venv/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
 # OS
 .DS_Store
 Thumbs.db
 
-# Environment
-.env
-.env.local
-*.log
+# Sensitive files
+*.env
+*.credentials
+*.key
+*.pem
 
-# Node
-node_modules/
+# L&K Agency internal files (never commit)
+*.xlsx
+*.xlsm
+*.docx
+_chat*.txt
+*.jpg
+*.png
+
+# Temporary
+*.tmp
+*.bak
